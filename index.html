@@ -3,47 +3,25 @@
 <head>
     <meta charset= "UTF-8">
     <title>Hyung's Portfólio Web</title>
-    <style>
-        #nome{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        #descrição{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-        body{
-            background-color: #FFD131;
-        }
-        .destaques{
-            font-style: unset;
-        }
-        .organizacao{
-            font-size: 3em;
-        }
-        .colaboracao{
-            font-size: 2.5em;
-        }
-        .raciocinio{
-            font-size: 2em;
-        }
-        .empatia{
-            font-size: 1.5em;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css"
 </head>
 <body>
-    <h1>Sobre mim</h1>
-<p id= "nome"><strong>Hyung Sun Kang</strong> </p>
-<img id="minhafoto"
-alt="Foto de perfil do Hyung"
-src = "perfil.jpg"
-width=10%>
-<p id="descrição">Sou sul-coreano e atualmente moro na cidade de São Paulo.</p>
+<h1>Sobre mim</h1>
+<div>
+    <p id= "nome"><strong>Hyung Sun Kang</strong> </p>
+    <div class="image-container">
+    <img id="minhafoto"
+    alt="Foto de perfil do Hyung"
+    src = "perfil.jpg"
+    width=10%>
+    <p id="descrição">Sou sul-coreano e atualmente moro na cidade de São Paulo.</p>
+    </div>
+</div>
 <ul id="habilidades"><em class="destaques">Habilidades:</em></ul>
-<li class="organizacao"><strong>Organização</strong></li>
-<li class="colaboracao">Colaboração</li>
-<li class="raciocinio">Raciocínio lógico</li>
-<li class="empatia">Empatia</li><br>
+    <li class="organizacao"><strong>Organização</strong></li>
+    <li class="colaboracao">Colaboração</li>
+    <li class="raciocinio">Raciocínio lógico</li>
+    <li class="empatia">Empatia</li><br>
 <a href="#nome">Nome</a>
 <a href ="#minhafoto">Foto</a>
 <a href="#descrição">Histório</a>
