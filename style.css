@@ -1,0 +1,24 @@
+#nome{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+#descrição{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+body{
+    background-color: #FFD131;
+    }
+.destaques{
+    font-style: unset;
+    }
+.organizacao{
+    font-size: 3em;
+    }
+.colaboracao{
+    font-size: 2.5em;
+    }
+.raciocinio{
+    font-size: 2em;
+    }
+.empatia{
+    font-size: 1.5em;
+    }
