@@ -1,2 +1,0 @@
-# Sobre
-Porfólio pessoal
